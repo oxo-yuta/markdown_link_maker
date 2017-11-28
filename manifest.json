@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Markdown Link Maker",
+	"version": "1.0",
+	
+	"description": "Copy text the Link text written in Markdown",
+	"icons": {
+		"48": "icon/icon48.png"
+	},
+	"permissions":["clipboardRead","tabs"],
+	"browser_action": {
+		"default_icon": {
+			"48": "icon/icon48.png"
+		},
+		"default_title": "Make Markdown Link",
+		"default_popup": "popup.html"
+	}
+}
